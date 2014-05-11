@@ -1,0 +1,16 @@
+{
+	"name":"Clear History",
+	"description":"Clear All Browser History.",
+	"version":"1.0",
+	"background":{
+		"scripts":["background.js"]
+	},
+	"permissions":[
+		"history"
+	],
+	"browser_action":{
+		"default_title":"Clear History.",
+		"default_icon":"icon.png"
+	},
+	"manifest_version":2
+}
